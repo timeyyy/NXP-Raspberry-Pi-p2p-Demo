@@ -192,7 +192,7 @@
 #endif
 
 /* OSAL components */
-//#define  NXPBUILD__PH_OSAL_LPC12XX                      /**< Software OSAL for LPC12xx */
+#define  NXPBUILD__PH_OSAL_LPC12XX                      /**< Software OSAL for LPC12xx */
 #define  NXPBUILD__PH_OSAL_R_Pi                         /**< Software OSAL for Raspberry Pi */
 
 #if defined (NXPBUILD__PH_OSAL_LPC12XX) || \
